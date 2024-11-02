@@ -12,6 +12,7 @@ export const CardWrapper = styled.div`
     flex-direction: column;
     margin-top: 8rem;
     gap: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;
 
 export const StyledInformation = styled.div`
