@@ -1,10 +1,13 @@
-import { StyledBackground } from "./styled.module";
+import { StyledBackground, HeaderWrapper, StyledTitle, StyledLogo } from "./styled.module";
+import Logo from "/Logo.png";
 
 const BackgroundLogo = () => {
     return (
         <StyledBackground>
-            Orçamento
-            Logo
+            <HeaderWrapper>
+                <StyledTitle>Orçamento</StyledTitle>
+                <StyledLogo src={Logo} />
+            </HeaderWrapper>
         </StyledBackground>
     )
 }

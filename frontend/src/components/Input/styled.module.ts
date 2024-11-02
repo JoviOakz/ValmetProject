@@ -19,7 +19,7 @@ export const StyledInput = styled.input`
 
     &:focus {
         border-color: grey;
-        box-shadow: 0 0 5px rgba(255, 111, 97, 0.3);
+        box-shadow: 0 0 5px rgba(128, 128, 128, 0.3);
         background-color: #fff;
     }
 `;
