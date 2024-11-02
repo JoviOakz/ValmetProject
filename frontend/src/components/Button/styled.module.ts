@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-    background-color: #68C35A;
+    background-color: #68c35a;
     color: white;
     border: none;
     padding: 8px 28px;
@@ -12,6 +12,6 @@ export const StyledButton = styled.button`
     cursor: pointer;
 
     &:hover {
-        background-color: #58B041;
+        background-color: #58b041;
     }
 `;
