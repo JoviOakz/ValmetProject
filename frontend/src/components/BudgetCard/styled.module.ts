@@ -8,6 +8,35 @@ export const CardWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: white;
+    flex-direction: column;
+    gap: 3rem;
+`;
+
+export const StyledInformation = styled.div`
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    & > * {
+        flex: 1;
+        max-width: 100%;
+    }
+`;
+
+export const StyledDescription = styled.div`
+    width: 80%;
+`;
+
+export const StyledDates = styled.div`
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    & > * {
+        flex: 1;
+        max-width: 100%;
+    }
 `;
