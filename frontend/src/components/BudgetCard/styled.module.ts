@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CardWrapper = styled.div`
     width: 70%;
-    height: 60%;
+    height: 75%;
     border: 3px solid green;
     border-radius: 15px;
     display: flex;
@@ -10,7 +10,8 @@ export const CardWrapper = styled.div`
     align-items: center;
     background-color: white;
     flex-direction: column;
-    gap: 3rem;
+    margin-top: 8rem;
+    gap: 4rem;
 `;
 
 export const StyledInformation = styled.div`
