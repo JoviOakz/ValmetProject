@@ -1,4 +1,4 @@
-import { CardWrapper, StyledDates, StyledDescription, StyledInformation } from "./styled.module";
+import { CardWrapper, StyledButtons, StyledDates, StyledDescription, StyledInformation } from "./styled.module";
 import Button from "../Button";
 import Input from "../Input";
 
@@ -8,7 +8,7 @@ const BudgetCard = () => {
             <StyledInformation>
                 <Input label="Cliente" />
                 <Input label="Desenho" />
-                <Input label="Quantidade" />
+                <Input label="Quantidade" type="number" />
             </StyledInformation>
 
             <StyledDescription>
@@ -17,10 +17,14 @@ const BudgetCard = () => {
 
             <StyledDates>
                 <Input label="Data da Cotação" type="date" />
-                <Input label="Prazo de Fabricação" />
-                <Input label="Validade da Cotação" />
+                <Input label="Prazo de Fabricação" type="date" />
+                <Input label="Validade da Cotação" type="date" />
             </StyledDates>
-            <Button>Enter</Button>
+
+            <StyledButtons>
+                <Button color={'red'}>Cancelar</Button>
+                <Button color={'#68c35a'}>Confirmar</Button>
+            </StyledButtons>
         </CardWrapper>
     )
 }

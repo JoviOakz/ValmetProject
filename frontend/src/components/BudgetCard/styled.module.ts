@@ -41,3 +41,11 @@ export const StyledDates = styled.div`
         max-width: 100%;
     }
 `;
+
+export const StyledButtons = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 205px;
+    gap: 25px
+`;

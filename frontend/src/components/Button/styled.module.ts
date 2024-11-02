@@ -1,10 +1,12 @@
+import { darken } from "polished";
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-    background-color: #68c35a;
+    width: 100px;
+    height: 32px;
+    background-color: ${(props) => props.color || "gray"};
     color: white;
     border: none;
-    padding: 8px 28px;
     font-size: 16px;
     font-weight: 600;
     border-radius: 15px;
@@ -12,6 +14,6 @@ export const StyledButton = styled.button`
     cursor: pointer;
 
     &:hover {
-        background-color: #58b041;
+        background-color: ${(props) => darken(0.1, props.color || "gray")}; 
     }
 `;
